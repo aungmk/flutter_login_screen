@@ -48,6 +48,16 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
+            TextField(
+              decoration: InputDecoration(
+                filled: true,
+                fillColor: Color.fromRGBO(38, 38, 38, 1.0),
+                hintText: "Description",
+                hintStyle: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+            ),
           ],
         ),
       ),
